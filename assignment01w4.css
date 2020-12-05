@@ -1,0 +1,40 @@
+
+
+body{
+    background: url(img/hobart.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+    
+
+
+.cus{
+    width: 500px; height: 200px; border: solid gray 3px; 
+    background-color: white; padding-left:  200px; padding-top: 30px;
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    
+}
+
+.mont{
+    width: 500px; height: 50px; border: solid gray 2px; 
+    background-color:gray; padding-left:  14px; padding-top: 15px;
+    position: absolute;
+    top: 250px;
+    left: 440px;
+}
+
+.dollor{
+    position: absolute;
+    top: 242px;
+    left: 900px;
+}
+
+.elder{
+    position: absolute;
+    top: 10px;
+    left: 550px;
+}

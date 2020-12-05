@@ -1,0 +1,275 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: gray;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;   
+}
+
+ul{
+    padding-left: 50px;
+    padding-right: 120px;
+}
+
+
+ul li{
+    list-style: none;
+    float: right;
+}
+
+ul li a{
+    color: white;padding-right: 10px;  text-decoration: none; 
+}
+
+ul li a:hover{
+    text-decoration: underline; }
+
+nav{
+   
+    width: 100%; height: 90px; }
+
+.nav2{
+    text-align: right; padding-top: 40px; padding-right: 100px;
+
+
+}
+.nav2 a {
+    text-decoration: none;
+    color: gray; padding-right: 20px; 
+   
+}
+
+.logo1{
+     float: left; padding-top: 20px; padding-left: 100px;}
+
+.sec3{
+    background-image: url(img/banner_large.jpg);
+    width: 100%; height: 350px; }
+.para{
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 700px; 
+
+}
+
+.mdd{
+    position: absolute; top: 380px; left: 700px; 
+}
+
+
+.sec4{
+    display: grid;
+    grid-template-columns: 620px 620px;
+    grid-template-rows: 300px;
+    padding-top: 30px; padding-left: 60px;
+    height: 400px;   
+  
+  }
+
+.mik{
+    width: 600px; height: 500px;
+    padding-right: 0px; 
+}
+
+.mik a img:hover{
+    padding-top: 10px;
+}
+
+.mik h2{
+    color: gray;
+}
+
+.mik p{
+     color: gray; font-size: 15px;
+}
+
+.asus{
+    width: 600px; height: 500px;
+    padding-left: 0px;
+}
+.asus a img:hover{
+    padding-top: 10px;
+}
+
+.asus h2{
+    color: gray;
+}
+.asus p{
+    color: gray; font-size: 15px;
+}
+
+
+.sec5{
+    padding-top: 40px;
+    width: 95%; height: 300px; 
+}
+.s501{
+    padding-left: 60px; width: 95%; height: 20px; 
+}
+
+.s502{
+    padding-left: 60px; width: 95%; height: 200px; 
+}
+
+
+
+.sec6{
+    width: 100%; height: 30px;  text-align: center; padding-top: 30px;
+}
+
+
+.sec7{
+    width: 100%; height: 220px; padding-top: 10px;  
+}
+
+.s701{
+    width: 50%; height: 200px; color: gray; font-size: 15px; padding-top: 20px; padding-left: 60px;
+    float: left; 
+}
+
+
+.s701 a{
+    text-decoration: none; color: blue; 
+}
+.s702{
+    padding-top: 20px; 
+}
+
+
+.sec8
+{ width: 70%; height: 100px;  color: gray; padding-left: 150px; padding-bottom: 10px;
+}
+
+.sec8 a{
+    text-decoration: none; color: blue; 
+}
+    
+.sec9{
+    width: 100%; height: 300px; 
+}
+
+.s901{
+    width: 90%; height: 60px;   padding-left: 60px; padding-top: 30px;
+}
+
+.s902{
+    width: 100%; height: 150px; 
+}
+
+.s902 a img:hover{padding-top: 10px;}
+
+.sec10{
+    width: 90%; height: 50px;  padding-left: 60px; padding-top: 20px;
+}
+
+.sec11{
+    display: grid;
+    grid-template-columns: 620px 620px;
+    grid-template-rows: 300px;
+    padding-top: 0px; padding-left: 60px;
+    height: 280px;   }
+
+.sec11 a img:hover{padding-top: 10px;}
+
+.sec12{
+    background-color: #003333; 
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 300px;
+    padding-top: 30px; padding-left: 60px;
+    height: 350px;  
+    
+ 
+}
+
+.sec12 h3{
+    color: white;
+}
+.sec12 p{
+    color: gray;
+}
+.sec12 a{
+text-decoration: none; color: gray;
+}
+
+footer{
+    color: white; width: 100%; height: 40px; background-color: #001a1a; text-align: center; padding-top: 15px;
+}
+
+footer a{
+    text-decoration: none; color: #006666;
+}
+
+
+
+
+@media only screen and (max-width: 768px)
+{
+    header{
+         display: none;
+    }
+
+    nav{display: none;}
+   
+    
+    
+    
+    .sec4{
+        display: grid;
+        grid-template-columns: 1000px;
+        grid-template-rows: 400px 400px;
+        padding-top: 30px; padding-left: 60px;
+        height: 800px;    
+      
+      }
+    .sec5{height: 200px;}
+    .s502{height: 120px;}
+    .s502 img{height: 120px;}
+
+    .sec7{width: 700px; height: 500px;
+    }
+    .s701{ width: 90%;
+        clear: both;
+    }
+    .s702 img{
+        width: 500px; height: 250px; padding-left: 60px;
+    }
+    
+    .sec11{
+        display: grid;
+        grid-template-columns: 1000px;
+        grid-template-rows: 250px 250px;
+        padding-top: 0px; padding-left: 60px;
+        height: 500px;   }
+
+    .s1101 img{
+        width: 600px; height: 150px;
+    }
+    .s1102 img{
+        width: 600px; height: 150px;
+    }
+
+    .sec12{
+        background-color: #003333; 
+        display: grid;
+        grid-template-columns: 500px;
+        grid-template-rows: 150px 150px 400px 400px;
+        padding-top: 60px; padding-left: 60px;
+        height: 1100px;  
+        
+     
+    }
+    .contactus a img{
+    width: 100px; height: 100px;
+    }
+
+
+
+}
+

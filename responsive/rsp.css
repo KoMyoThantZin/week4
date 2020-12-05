@@ -1,0 +1,33 @@
+
+
+
+
+@media only screen and (max-width: 768px) 
+{
+p{
+    background-color: blue;
+}
+
+div{
+    background-color: black; 
+    text-align: center;
+
+}
+
+h1{
+     color: white;
+}
+
+}
+
+@media print{ 
+    img{ display: none;}
+    h1{
+        text-align: center;
+        color: red;
+    }
+}
+
+
+
+

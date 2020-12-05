@@ -1,0 +1,32 @@
+*{
+    margin: 0px; padding: 0px;
+}
+
+body{
+    background: url(img/travelworthy-backdrop.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.hotelavai{
+    width: 200px;
+    height: 655px;
+    background-color: black;
+    position: absolute;
+    left: 800px; top: 0px;
+}
+
+.gcolor{
+    text-align: center;   color: green; padding-top: 30px; padding-bottom: 10px;
+}
+
+.graycolor{
+    text-align: center;   color: gray; padding-bottom: 20px; padding-top: 20px;
+}
+
+.gc{
+    text-align: center;   color: gray; padding-bottom: 20px; padding-top: 0px;
+}
+.ycolor{
+    text-align: center;   color: yellow; padding-top: 20px; font-size: 80px;
+}
